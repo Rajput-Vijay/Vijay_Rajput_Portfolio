@@ -9,6 +9,7 @@ const NavBarDiv = styled.div`
   padding-left: 50px;
   padding-right: 50px;
   display: flex;
+  z-index: 2;
   height: 65px;
   align-items: center;
   justify-content: space-between;
