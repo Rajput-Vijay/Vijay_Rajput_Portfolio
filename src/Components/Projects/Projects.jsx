@@ -32,12 +32,12 @@ const Projects = () => {
     },
     {
       id: 4,
-      project_name: "",
-      image: "/project_images/Seekho.png",
+      project_name: "NordStrom Clone",
+      image: "/project_images/nordstrom.png",
       project_desc:
         "An online E library built using React JS, Express js, Node JS and Mongodb.",
-      deploy_link: "https://seekho-frontend-vcow10kar.vercel.app/",
-      repo_link: "https://github.com/Vishal-080/seekho-project",
+      deploy_link: "https://malaya-app.netlify.app/",
+      repo_link: "https://github.com/Rajput-Vijay/Nordstrom-Project",
       tech_stack: [
         <SiMongodb />,
         <FaNodeJs />,
@@ -48,35 +48,6 @@ const Projects = () => {
         <FaJs />,
       ],
     },
-    {
-      id: 3,
-      project_name: "GROWW Clone",
-      image: "/project_images/GROWW.png",
-      project_desc:
-        "An online stocks trading web app. Built using JS, Express js, Node js and MongoDB.",
-      deploy_link: "https://growww-clone.netlify.app/",
-      repo_link: "https://github.com/Vishal-080/Groww_Clone",
-      tech_stack: [
-        <FaHtml5 />,
-        <FaCss3 />,
-        <FaJs />,
-        <FaNodeJs />,
-        <SiMongodb />,
-        <FaNodeJs />,
-      ],
-    },
-    {
-      id: 5,
-      project_name: "Bluemercury Clone",
-      image: "/project_images/bluemercury.png",
-      project_desc:
-        "Bluemercury is an US based Cosmetics store. Built using HTML, CSS and JavaScript. ",
-      deploy_link: "https://bluemercuryclone.netlify.app/",
-      repo_link: "https://github.com/Vishal-080/Bluemercury",
-      tech_stack: [<FaHtml5 />, <FaCss3 />, <FaJs />],
-    },
-
-    //https://seekho-frontend-vcow10kar.vercel.app/
   ];
 
   return (
