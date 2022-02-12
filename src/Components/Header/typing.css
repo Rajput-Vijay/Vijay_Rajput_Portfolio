@@ -28,7 +28,7 @@ h2::before {
   left: 0;
   width: 0;
   height: 100%;
-  color: #1362ff;
+  color: #FFE162;
   overflow: hidden;
   position: absolute;
   content: attr(data-text);
