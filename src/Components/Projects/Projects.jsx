@@ -14,33 +14,6 @@ import { FaHtml5, FaReact, FaJs, FaCss3 } from "react-icons/fa";
 import { SiMongodb, SiRedux } from "react-icons/si";
 const Projects = () => {
   const projects = [
-    // {
-    //   id: 0,
-    //   project_name: "MaskIt Store",
-    //   image: "/project_images/maskit.png",
-    //   project_desc:
-    //     "MaskIt Store is an E-commerce web app that allows users to search, buy and review masks.",
-    //   deploy_link: "https://maskit.vercel.app/",
-    //   repo_link: "https://github.com/ajmalmiyan/maskit-store",
-    //   tech_stack: [
-    //     <FaReact />,
-    //     <FaNodeJs />,
-    //     <SiMongodb />,
-    //     <SiRedux />,
-    //     <FaJs />,
-    //     <FaCss3 />,
-    //   ],
-    // },
-    // {
-    //   id: 1,
-    //   project_name: "Indeed Clone",
-    //   image: "/project_images/indeed.png",
-    //   project_desc:
-    //     "Indeed is a web app that allows users to search jobs, apply jobs and add reviews about employers.",
-    //   deploy_link: "https://indeed.vercel.app/",
-    //   repo_link: "https://github.com/ajmalmiyan/indeed-clone",
-    //   tech_stack: [<FaReact />, <SiRedux />, <FaJs />, <FaHtml5 />, <FaCss3 />],
-    // },
     {
       id: 2,
       project_name: "Cult.Fit Clone",
@@ -59,17 +32,6 @@ const Projects = () => {
         <FaCss3 />,
       ],
     },
-    // {
-    //   id: 2,
-    //   project_name: "Netflix Clone",
-    //   image: "/project_images/netflix.png",
-    //   project_desc:
-    //     "An OTT platform that allows users to watch a wide variety of shows and movies. This is a personal project.",
-    //   deploy_link: "https://netflix-psi-murex.vercel.app/",
-    //   repo_link: "https://github.com/ajmalmiyan/netflix",
-    //   tech_stack: [<FaReact />, <FaJs />, <FaHtml5 />, <FaCss3 />],
-    // },
-    //
     {
       id: 4,
       project_name: "SEEKHO E-library",
