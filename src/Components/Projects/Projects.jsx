@@ -41,11 +41,10 @@ const Projects = () => {
       tech_stack: [
         <SiMongodb />,
         <FaNodeJs />,
-        <FaReact />,
+        <FaJs />,
         <FaNodeJs />,
         <FaHtml5 />,
         <FaCss3 />,
-        <FaJs />,
       ],
     },
   ];
