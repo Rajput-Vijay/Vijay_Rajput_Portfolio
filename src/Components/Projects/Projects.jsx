@@ -35,7 +35,7 @@ const Projects = () => {
       project_name: "NordStrom Clone",
       image: "/project_images/nordstrom.png",
       project_desc:
-        "An online E library built using React JS, Express js, Node JS and Mongodb.",
+        "Nordstrom.com Nordstrom, Inc. is an American luxury department store chain. Where users can buy everything from clothes to shoes.",
       deploy_link: "https://malaya-app.netlify.app/",
       repo_link: "https://github.com/Rajput-Vijay/Nordstrom-Project",
       tech_stack: [
