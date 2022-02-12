@@ -18,11 +18,11 @@ const Stats = () => {
             <StatsContH3>Hours of coding</StatsContH3>
           </StatsContDiv>
           <StatsContDiv>
-            <StatsContH1>400+</StatsContH1>
+            <StatsContH1>40+</StatsContH1>
             <StatsContH3>Git Commits</StatsContH3>
           </StatsContDiv>
           <StatsContDiv>
-            <StatsContH1>5+</StatsContH1>
+            <StatsContH1>2+</StatsContH1>
             <StatsContH3>Projects</StatsContH3>
           </StatsContDiv>
           <LastStat>
@@ -37,9 +37,9 @@ const Stats = () => {
       <br />
       <br />
       <img
-        src="https://ghchart.rshah.org/021F34/Vishal-080"
+        src="https://ghchart.rshah.org/021F34/Rajput-Vijay"
         alt="fdsdf"
-        style={{ width: "80%", display: "block", margin: "auto" }}
+        style={{ width: "80%", display: "block",filter:"contrast(2)", margin: "auto" }}
       />
     </Container>
   );

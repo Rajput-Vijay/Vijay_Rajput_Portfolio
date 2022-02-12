@@ -16,17 +16,15 @@ const Projects = () => {
   const projects = [
     {
       id: 2,
-      project_name: "Cult.Fit Clone",
-      image: "/project_images/cultfit.png",
+      project_name: "Ajio Clone",
+      image: "/project_images/ajio.png",
       project_desc:
-        "In Cult.Fit you can schedule a workout session of your choice as per the date and time slot provided.",
-      deploy_link: "https://cult-fit-client.vercel.app/",
-      repo_link: "https://github.com/Vishal-080/Cult-Fit-Client-1",
+        "This is clone website of Ajio.com. Ajio is an ecommerse website where user can buy all kinds of Fashion products.",
+      deploy_link: "https://ajio-clone-full.herokuapp.com/",
+      repo_link: "https://github.com/Rajput-Vijay/Ajio-Clone-Backend",
       tech_stack: [
         <SiMongodb />,
         <FaNodeJs />,
-        <FaReact />,
-        <SiRedux />,
         <FaJs />,
         <FaHtml5 />,
         <FaCss3 />,
@@ -34,7 +32,7 @@ const Projects = () => {
     },
     {
       id: 4,
-      project_name: "SEEKHO E-library",
+      project_name: "",
       image: "/project_images/Seekho.png",
       project_desc:
         "An online E library built using React JS, Express js, Node JS and Mongodb.",
