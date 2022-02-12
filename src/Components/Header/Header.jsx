@@ -12,7 +12,7 @@ const Banner = () => {
           <br />
           <H1>Hi 👋 I'm </H1>
           <span>
-            <h2 data-text="Vishal Rathod">Vishal Rathod</h2>
+            <h2 data-text="Vijay Rajput">Vijay Rajput</h2>
           </span>
           <br />
           <P>
@@ -24,7 +24,7 @@ const Banner = () => {
             <A
               target="_blank"
               rel="noreferrer"
-              href="/resume/Vishal_resume.pdf"
+              href="/resume/vijayrajput.pdf"
             >
               Resume
             </A>
