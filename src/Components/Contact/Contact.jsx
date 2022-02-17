@@ -1,3 +1,4 @@
+import emailjs from "emailjs-com";
 import React from "react";
 import {
   ContactContainer,
@@ -9,7 +10,6 @@ import {
   P,
   LinksCont,
 } from "./Styles";
-import emailjs from "emailjs-com";
 import { Container, Common, H1 } from "../../SharedStyles/SharedStyles";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -27,47 +27,33 @@ const footerData = [
   {
     id: 0,
     title: "Mobile",
-    display: "+91-8305687489",
-    link: "tel:+918305687489",
+    display: "+91-9039512378",
+    link: "tel:+919039512378",
     icon: <FaPhone className="commonIconsFooter" />,
   },
   {
     id: 1,
     title: "Email",
-    display: "rajputvijay310@gmail.com",
-    link: "mailto:rajputvijay310@gmail.com",
+    display: "mg08312@gmail.com",
     icon: <SiGmail className="commonIconsFooter" />,
   },
   {
     id: 2,
     title: "Github",
     display: "Github",
-    link: "https://github.com/Rajput-Vijay",
+    link: "https://github.com/MohitGupta10",
     icon: <FaGithub className="commonIconsFooter" />,
   },
   {
     id: 3,
     title: "LinkedIn",
     display: "LinkedIn",
-    link: "https://www.linkedin.com/in/vijay-rajput-8305687489/",
+    link: "https://www.linkedin.com/in/mohit-gupta-5b22a0118/",
     icon: <FaLinkedin className="commonIconsFooter" />,
   },
+
   {
     id: 4,
-    title: "Twitter",
-    display: "Twitter",
-    link: "https://twitter.com/rajput_vijay10",
-    icon: <FaTwitter className="commonIconsFooter" />,
-  },
-  {
-    id: 5,
-    title: "Medium",
-    display: "Medium",
-    link: "	https://medium.com/@rajput_vijay10",
-    icon: <FaMedium className="commonIconsFooter" />,
-  },
-  {
-    id: 6,
     title: "Address",
     display: "Indore, India",
     display: "Location : Indore, India",
@@ -79,7 +65,7 @@ const Contact = () => {
   function sendEmail(e){
     e.preventDefault()
      
-    emailjs.sendForm('service_rajputvijay310', 'template_erwvnff', e.target, '"user_tK2b2KBsgFvQsnJeHFG6V"')
+    emailjs.sendForm('service_rajputvijay310', 'template_erwvnff', e.target, 'user_tK2b2KBsgFvQsnJeHFG6V')
       .then((result) => {
           console.log(result);
       }, (error) => {
@@ -87,6 +73,8 @@ const Contact = () => {
       });
       e.target.reset()
   }
+  
+  
   return (
     <Container className="contact">
       <Common>
@@ -107,9 +95,10 @@ const Contact = () => {
               name="message"
               placeholder="Message"
             ></InputInput2>
-            <A value="Send">SEND</A>
+            <A value="Send" type="submit">SEND</A>
+            </ContactForm>
             <ToastContainer />
-          </ContactForm>
+         
         </Column>
         <Column>
           <LinksCont>
