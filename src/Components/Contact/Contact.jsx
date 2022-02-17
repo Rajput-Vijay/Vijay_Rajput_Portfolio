@@ -73,47 +73,20 @@ const footerData = [
     display: "Location : Indore, India",
     link: "Indore, India",
   },
-  // {
-  //   id: 6,
-  //   title: "HackerRank",
-  //   display: "HackerRank",
-  //   link: "https://hackerrank.com/vrathod591",
-  //  {
-  //    id: 6,
-  //    title: "Address",
-  //    display: "Location : Indore, India",
-  //    link: "Indore, India",
-  // }
-  //   icon: <FaHackerrank className="commonIconsFooter" />,
-  // },
 ];
 
 const Contact = () => {
-  const success = () => toast.dark("Successfully Sent");
-  const failure = () => toast.error("Something went wrong");
-  console.log(process.env.REACT_APP_SERVICE_ID);
-  console.log(process.env);
-  const handleSend = (e) => {
-    e.preventDefault();
-    emailjs
-      .sendForm(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
-        e.target,
-        process.env.REACT_APP_USER_ID
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          success();
-        },
-        (error) => {
-          console.log(error.text);
-          failure();
-        }
-      );
-    e.target.reset();
-  };
+  function sendEmail(e){
+    e.preventDefault()
+     
+    emailjs.sendForm('service_rajputvijay310', 'template_erwvnff', e.target, '"user_tK2b2KBsgFvQsnJeHFG6V"')
+      .then((result) => {
+          console.log(result);
+      }, (error) => {
+          console.log("byebye");
+      });
+      e.target.reset()
+  }
   return (
     <Container className="contact">
       <Common>
@@ -121,7 +94,7 @@ const Contact = () => {
       </Common>
       <ContactContainer>
         <Column>
-          <ContactForm onSubmit={handleSend}>
+          <ContactForm onSubmit={sendEmail}>
             <InputInput1 required name="name" type="text" placeholder="Name" />
             <InputInput1
               required
