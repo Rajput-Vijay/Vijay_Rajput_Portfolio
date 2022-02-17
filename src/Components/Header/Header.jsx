@@ -16,9 +16,7 @@ const Banner = () => {
           </span>
           <br />
           <P>
-            An enthusiastic Full Stack Web Developer with a strong set of
-            technical as well as non-technical skills and a dedication towards
-            creating useful and interactive web applications.
+          A passionate Full Stack Web Developer with a diverse range of technical and non-technical skills and a passion for building useful and engaging web applications.
           </P>
           <HeaderButtons>
             <A

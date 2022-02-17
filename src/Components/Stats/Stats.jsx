@@ -36,11 +36,11 @@ const Stats = () => {
       <br />
       <br />
       <br />
-      <img
+      {/* <img
         src="https://ghchart.rshah.org/021F34/Rajput-Vijay"
         alt="fdsdf"
         style={{ width: "80%", display: "block",filter:"contrast(2)", margin: "auto" }}
-      />
+      /> */}
     </Container>
   );
 };

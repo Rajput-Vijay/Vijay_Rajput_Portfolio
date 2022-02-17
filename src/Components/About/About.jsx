@@ -42,16 +42,12 @@ const About = () => {
           <H1>About Me</H1>
           <AboutInfo>
             <AboutInfoP>
-              A dedicated Full Stack Web developer with a specialized skill set
-              that enables me to build robust web applications. I am adept in
-              both front-end and back-end and have an eye for performance and
-              accuracy.
+            I am a dedicated Full Stack Web programmer with a broad expertise set that allows me to create robust web applications.
+ I am proficient in both front-end and back-end, and I have an eye for efficiency and precision.
             </AboutInfoP>
             <AboutInfoP>
-              I am adaptable, proficient in remote collaboration, and committed
-              to achieving organizational goals. With a knack for
-              problem-solving and analytics, I am passionate about solving
-              Algorithmic problems with a good hold on Data Structures.
+            I am flexible, skilled in remote collaboration, and dedicated to achieving organizational objectives.
+ I am passionate about solving Algorithmic problems with a strong grasp on Data Structures with a knack for problem-solving and analytics.
             </AboutInfoP>
           </AboutInfo>
           <HeaderUl>
