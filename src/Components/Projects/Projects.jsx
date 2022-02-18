@@ -10,14 +10,14 @@ import {
   BoxDiv,
 } from "./Styles";
 import { Container, Common, H1 } from "../../SharedStyles/SharedStyles";
-import { FaHtml5, FaReact, FaJs, FaCss3 } from "react-icons/fa";
-import { SiMongodb, SiRedux } from "react-icons/si";
+import { FaHtml5, FaJs, FaCss3 } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
 const Projects = () => {
   const projects = [
     {
       id: 2,
       project_name: "Ajio Clone",
-      image: "/project_images/ajio.png",
+      image: "/project_images/ajio.jpg",
       project_desc:
         "This is clone website of Ajio.com. Ajio is an ecommerse website where user can buy all kinds of Fashion products.",
       deploy_link: "https://ajio-clone-full.herokuapp.com/",
@@ -33,18 +33,15 @@ const Projects = () => {
     {
       id: 4,
       project_name: "NordStrom Clone",
-      image: "/project_images/nordstrom.png",
+      image: "/project_images/nordstrom.jpg",
       project_desc:
         "Nordstrom.com clone. Nordstrom is american chain for premium range of clothes and accessories.",
       deploy_link: "https://malaya-app.netlify.app/",
       repo_link: "https://github.com/Rajput-Vijay/Nordstrom-Project",
       tech_stack: [
-        <SiMongodb />,
-        <FaNodeJs />,
-        <FaJs />,
-        <FaNodeJs />,
         <FaHtml5 />,
         <FaCss3 />,
+        <FaJs />,
       ],
     },
   ];
@@ -65,7 +62,6 @@ const Projects = () => {
                     {item.project_name}
                   </ServiceBoxHeader>
                   <ServiceBoxP>{item.project_desc}</ServiceBoxP>
-                  {/* <a href="">Read more</a> */}
                   <div
                     style={{
                       margin: "15px 20px",

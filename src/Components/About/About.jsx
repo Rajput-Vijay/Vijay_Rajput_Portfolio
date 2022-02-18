@@ -1,6 +1,5 @@
 import React from "react";
 import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
 import {
   AboutDiv,
   Column,

@@ -1,1 +1,1 @@
-## Vishal Rathod' Personal Portfolio
+## Vijay Rajput's Personal Portfolio

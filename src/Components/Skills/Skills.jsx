@@ -9,7 +9,7 @@ import {
   FaServer,
   FaHubspot,
 } from "react-icons/fa";
-import { SiRedux, SiMongodb, SiCsharp, SiPostgresql } from "react-icons/si";
+import { SiRedux, SiMongodb, } from "react-icons/si";
 import {
   SkillsContainer,
   Col,
@@ -79,53 +79,6 @@ const Skills = () => {
       project_desc: <FaServer className="commonIcons" />,
     },
   ];
-
-  const frontend = [
-    {
-      id: 3,
-      project_name: "HTML",
-      project_desc: <FaHtml5 className="commonIcons" />,
-    },
-    {
-      id: 4,
-      project_name: "CSS",
-      project_desc: <FaCss3 className="commonIcons" />,
-    },
-    {
-      id: 0,
-      project_name: "JavaScript",
-      project_desc: <FaJs className="commonIcons" />,
-    },
-    {
-      id: 1,
-      project_name: "React JS",
-      project_desc: <FaReact className="commonIcons" />,
-    },
-    {
-      id: 2,
-      project_name: "Redux",
-      project_desc: <SiRedux className="commonIcons" />,
-    },
-  ];
-
-  const backend = [
-    {
-      id: 7,
-      project_name: "Mongo DB",
-      project_desc: <SiMongodb className="commonIcons" />,
-    },
-    {
-      id: 6,
-      project_name: "Express",
-      project_desc: <FaNodeJs className="commonIcons" />,
-    },
-    {
-      id: 5,
-      project_name: "Node JS",
-      project_desc: <FaNodeJs className="commonIcons" />,
-    },
-  ];
-
   return (
     <Container className="skills">
       <SkillsContainer>
