@@ -2,10 +2,6 @@ import React from "react";
 import { Toggle } from "./Toggle";
 import { NavBarDiv, NavBarRight, NavLink } from "./Styles";
 import { Link } from "react-scroll";
-// import useMediaQuery from "react-use-media-query-hook";
-// import { slide as Menu } from 'react-burger-menu'
-// import './Navbar.module.css'
-// import { red } from "@material-ui/core/colors";
 
 const menus = [
   { id: 0, name: "Home", css: "home" },
