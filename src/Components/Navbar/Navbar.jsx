@@ -13,22 +13,6 @@ const menus = [
 
 
 function Navbar({ themeToggler }) {
-  // const isMobile = useMediaQuery("(max-width: 400px)");
-  // const isTablet = useMediaQuery("(min-width: 401px) and (max-width: 875px)");
-  // const isDesktop = useMediaQuery("(min-width: 876px) and (max-width: 1024px)");
-  // const isLargeDesktop = useMediaQuery("(min-width: 1025px)");
-  // const [open, setOpen] = useState(false);
-  // useEffect(() => {
-  //   if ((isDesktop || isLargeDesktop) && open) {
-  //     setOpen(false, isDesktop);
-  //   }
-  //   // eslint-disable-next-line
-  // }, [isLargeDesktop, isDesktop]);
-  // const [opened,setOpened] = useState(false);
-  // const isOpened = ()=>{
-  //   setOpened(!opened)
-  //   console.log(opened)
-  // }
   return (
     <NavBarDiv>
       <Toggle themeToggler={themeToggler} />
