@@ -14,12 +14,10 @@ const NavBarDiv = styled.div`
   align-items: center;
   justify-content: space-between;
   @media (max-width: 460px) {
-    // margin-left: -15px;
     width: 100%;
   padding-left: 10px;
   padding-right: 10px;
     //margin:auto;
-    /* padding : 0px; */
   }
 `;
 
